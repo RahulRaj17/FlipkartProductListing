@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: #2874f0;
+    height: 56px;
+}
+
+nav .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+}
+
+nav .logo img{
+    width: 75px;
+}
+
+nav .search{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 12px;
+}
+
+nav .search input{
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    padding: 16px;
+    border: none;
+    outline: none;
+}
+
+nav .become-seller{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav .cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
