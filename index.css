@@ -152,12 +152,7 @@ Footer{
 }
 
 .footer-section{
-    margin-left: 60px;
     margin-top: 40px;
-}
-
-.footer-header2{
-    margin-right: 78px;
 }
 
 Footer .footer-header{
@@ -168,6 +163,7 @@ Footer .footer-header{
 Footer .footer-content{
     display: flex;
     flex-direction: column;
+    margin-bottom: 56px;
 }
 
 .footer-content a{
