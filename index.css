@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav{
+    background-color: #3f72e9;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 88px;
+    margin: 18.91px 16.84px 13.78px 0;
+}
+
+nav .search input{
+    width: 38em;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    text-indent: 8px;
+    margin: 8px 0;
+}
+
+nav .become-seller{
+    margin: 18px 24px 18px 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav .cart{
+    margin: 18px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content{
+    width: 100%;
+    height: 268px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+}
+
+.content .content-img{
+    width: 204px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 24px 24px 32px;
+}
+
+.content img{
+    object-fit: contain;
+}
+
+.content .content-details{
+    display: flex;
+}
+
+.content-text{
+    margin: 40px 428px 40px 0px;
+}
+
+.rating-review{
+    margin: 16px 0px 16px 0px;
+}
+
+.content-text .rating{
+    width: 40px;
+    background-color: #508c47;
+    color: white;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.content-text .rating-text{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 3px 2px 3px 4px;
+}
+
+.content-text .fa{
+    font-size: 11.2px;
+    margin: 2.1px 1.4px 2.1px 0px;
+}
+
+.content-text ul{
+    padding-left: 1em;
+}
+
+.content-text li{
+    padding: 0.1em;
+}
+
+.content .content-price{
+    margin: 40px 274px 0px 0px;
+    font-size: 14px;
+}
+
+.content-details h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.checkbox{
+    margin: 3%;
+}
+
+.checkbox input{
+    margin: 5px;
+}
+
+.content-price p{
+    padding: 0.1em;
+}
+
+Footer{
+    background-color: #1A2335;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 500;
+    flex-grow: 1;
+}
+
+.footer-section{
+    margin-top: 40px;
+}
+
+Footer .footer-header{
+    color: #878787;
+    margin-bottom: 16px;
+}
+
+Footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.footer-content a{
+    margin-bottom: 10px;
+}
+
+.compare-component{
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+}
+
+/* .compare{
+    background-color: #2874f0; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.disable{
+    visibility: hidden; 
+} */
